@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "849276534933",
+    "firebase_url": "https://messsaga.firebaseio.com",
+    "project_id": "messsaga",
+    "storage_bucket": "messsaga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849276534933:android:cfb15f0200e8f456",
+        "android_client_info": {
+          "package_name": "com.letsbuildthatapp.kotlinmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849276534933-3i8adquqiq6v0c9v2pporrmsvj4ajbia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYMzGRfdBBoYp8WJlPQI2tBgs8o42gaUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
