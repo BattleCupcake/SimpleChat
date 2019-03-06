@@ -64,8 +64,6 @@ class RegisterActivity : AppCompatActivity() {
 
             selectphoto_button_register.alpha = 0f
 
-//      val bitmapDrawable = BitmapDrawable(bitmap)
-//      selectphoto_button_register.setBackgroundDrawable(bitmapDrawable)
         }
     }
 
@@ -86,7 +84,7 @@ class RegisterActivity : AppCompatActivity() {
                 if (!it.isSuccessful) return@addOnCompleteListener
 
                 // else if successful
-                Log.d(TAG, "Successfully created user with uid: ${it.result!!.user!!.uid}")
+                Log.d(TAG, "Successfully created user with uid: ${it.result!!.user.uid}")
 
                 uploadImageToFirebaseStorage()
             }
