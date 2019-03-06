@@ -3,4 +3,5 @@
     <string name="username">Username</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="back_to_registration">Back to registration</string>
 </resources>
