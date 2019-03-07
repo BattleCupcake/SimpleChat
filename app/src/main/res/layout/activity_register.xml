@@ -21,6 +21,7 @@
         android:hint="Username"
         android:inputType="textPersonName"
         android:paddingLeft="16dp"
+        android:textColor="@color/secondary_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selectphoto_button_register" />
@@ -35,6 +36,7 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingLeft="16dp"
+        android:textColor="@color/secondary_text"
         app:layout_constraintEnd_toEndOf="@+id/username_edittext_register"
         app:layout_constraintStart_toStartOf="@+id/username_edittext_register"
         app:layout_constraintTop_toBottomOf="@+id/username_edittext_register" />
@@ -49,6 +51,7 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="16dp"
+        android:textColor="@color/secondary_text"
         app:layout_constraintEnd_toEndOf="@+id/email_edittext_register"
         app:layout_constraintStart_toStartOf="@+id/email_edittext_register"
         app:layout_constraintTop_toBottomOf="@+id/email_edittext_register" />

@@ -20,6 +20,8 @@
         android:hint="Enter Message"
         android:background="@android:color/white"
         android:inputType="textPersonName"
+        tools:text="message"
+        android:textColor="@color/secondary_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/send_button_chat_log"
         app:layout_constraintStart_toStartOf="parent" />
