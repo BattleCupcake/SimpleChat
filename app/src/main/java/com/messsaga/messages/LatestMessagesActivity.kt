@@ -12,7 +12,7 @@ import com.google.firebase.database.*
 import com.messsaga.R
 import com.messsaga.model.ChatMessage
 import com.messsaga.model.User
-import com.messsaga.registerlogin.RegisterActivity
+import com.messsaga.registerlogin.LoginActivity
 import com.messsaga.view.LatestMessageRow
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.ViewHolder
@@ -110,7 +110,7 @@ class LatestMessagesActivity : AppCompatActivity() {
     private fun verifyUserIsLoggedIn() {
         val uid = FirebaseAuth.getInstance().uid
         if (uid == null) {
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)
         }
@@ -124,7 +124,7 @@ class LatestMessagesActivity : AppCompatActivity() {
             }
             R.id.menu_sign_out -> {
                 FirebaseAuth.getInstance().signOut()
-                val intent = Intent(this, RegisterActivity::class.java)
+                val intent = Intent(this, LoginActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(intent)
             }

@@ -20,8 +20,9 @@ class LoginActivity : AppCompatActivity() {
             performLogin()
         }
 
-        back_to_register_textview.setOnClickListener{
-            finish()
+        register.setOnClickListener{
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
         }
     }
     private fun performLogin() {
